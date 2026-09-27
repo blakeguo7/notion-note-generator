@@ -1,0 +1,11 @@
+interface:
+  display_name: "Notion Note Generator"
+  short_description: "Turn learning sources into structured Notion notes"
+  default_prompt: "Use $notion-note-generator to turn these sources into structured, source-grounded Notion learning notes."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "notion"
+      description: "Notion MCP server for reading, creating, updating, and verifying notes"
+      transport: "streamable_http"
+      url: "https://mcp.notion.com/mcp"
