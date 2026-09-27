@@ -1,5 +1,6 @@
 ---
 name: notion-note-generator
+license: MIT
 description: Turn websites, slide decks, PDFs, documents, and supplied learning material into source-grounded notes and create or update them in Notion. Use when the user wants to study, synthesize, reorganize, or preserve knowledge in Notion; do not use for meeting notes, task tracking, or general Notion administration.
 ---
 
